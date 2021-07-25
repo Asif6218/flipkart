@@ -238,225 +238,188 @@ td{
    top: 1060px;
 }
 @media screen and (max-width:768px){
+ .top{
+     width: 100vw;
+     height: 90px;
+ }
+ .logo{
+position: absolute;
+left: 5px;
+margin: 0;
+
+ }
+
+ .cat8{
+     position: absolute;
+     left: 0;
+ }
+ .login{
+     position: absolute;
+     left: 75vw;
+     color: white;
+     background-color:rgb(42, 112, 243) ;
+ }
+ .cart{
+     position: absolute;
+     left: 70vw;
+ }
+ .cat0{
+     margin-left: 2px;
+     font-size: 7px;
+     margin-right: 1px;
+ }
+ .des{
+     position: absolute;
+     left: 2px;
+ }
+ .cat1{
+     margin-right: 8px;
+     font-size: 7px;
+ }
+ .cat2{
+     margin-right:10px;
+     font-size: 7px;
+ }
+ .cat3{
+     margin-right: 2px;
+     font-size: 7px;
+ }
+ .cat4{
+     margin-right:10px;
+     font-size: 7px;
+ }
+ .cat5{
+     margin-right:6px;
+     font-size: 7px;
+ }
+ .cat6{
+     margin-right:5px;
+     font-size: 7px;
+ }
+ .cat7{
+     margin: 0;
+     font-size: 7px;
+ }
+ .cat8{
+     font-size: 7px;
+     position: absolute;
+     left:310px;
+     top: 8px;
+ }
+ .ad{
+     margin-top:12px;
+     padding: 0;
+     margin-bottom: 0;
+     height: 130px;
+ }
+ #boat{
+     width: 97vw;
+     margin: 5px 5px 5px 5px ;
+     object-fit: cover;
+     padding: 0;
+     height: 120px;
+ }
+ .sales{
+     width: 25vw;
+     background-color: aqua;
+ }
  
-
-    .top{
-        width:100vw;
-        height: 85px;
-        background-color: rgb(42, 112, 243);
-        position: sticky;
-        top: 0;
-        display:inline-block
-    }
-    .logo{
-        width: 65px;
-        margin: 5px 0px 5px 20px;
-        display: inline-block;
-    }
-    .cart{
-        width: 22px;
-        position: absolute;
-        top:15px ;
-        left: 250px;
-    }
-    .one{
-        color: rgb(42, 112, 243);
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    .two{
-        color: rgb(42, 112, 243);
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-    input{
-        position: absolute;
-        top: 50px;
-        left: 4px;
-        display: inline-block;
-        width: 98vw;
-        height: 30px;
-    }
-    .login{
-        position: absolute;
-        top: 15px;
-        left: 270px;
-        color: white;
-        background-color: rgb(42, 112, 243);
-        border-color: transparent;
-    }
-    img{
-        width: 35px;
-        margin: 0;
-    }
-    .des{
-        font-size: 1px;
-        width: 100vw;   
-        position: absolute;
-        left: 0;
-    }
-    .cat0{
-        padding-left: 5px;
-        margin-right: 8px;
-        font-size: 6px;
-    }
-    .cat1{
-        margin-right: 18px;
-        font-size: 6px;
-    }
-    .cat2{
-        margin-right: 14px;
-        font-size: 6px;
-    }
-    .cat3{
-        margin-right: 13px;
-        font-size: 6px;
-    }
-    .cat4{
-        margin-right: 16px;
-        font-size: 6px;
-    }
-    .cat5{
-        margin-right: 12px;
-        font-size: 6px;
-    }
-    .cat6{
-        margin-right: 14px;
-        font-size: 6px;
-    }
-    .cat7{
-        margin-right: 9px;
-        font-size: 6px;
-    }
-    .cat8{
-        font-size: 6px;
-        
-    }
-    .ad{
-        width: 100vw;
-        height: 130px;
-        background-color:  rgb(233, 233, 233);
-        position: absolute;
-        top: 110px;
-    }
-    #boat{
-        width: 99.5vw;
-        height: 125px;
-        padding-left: 5px;
-        padding-top: 5px;
-        mask-image:none;
-        object-fit: cover;
-        margin: 0;
-    }
-    .A{
-        width: 75vw;
-        background-color:rgb(233, 233, 233) ;
-        padding-bottom: 4px;
-        padding-top: 0px;
-        padding-right: 2px;
-        position: absolute;
-        top: 260px;
-    }
-    .A1{
-        margin-left: 5px;
-        background-color: white;
-        margin-top: 0px;
-       
-    }
-    .deals{
-        font-size: 12px;
-        font-weight: 400;
-        display: inline-block;
-        margin-right:130px;
-        padding: 0;
-    }
-    .view{
-        width: 43px;
-        height: 14px;
-        font-size: 7px;
-        font-weight: 500px;
-        color: white;
-        padding-top: 0px;
-        background-color:  rgb(42, 112, 243);
-        border-color: transparent;
-        position: absolute;
-        top: 2px;
-    }
-    .sales{
-        width: 25vw;
-        margin: 0;
-    }
-    .sales1{
-        width: 24vw;
-        margin: 0;
-        position: absolute;
-        left: 270px;
-        top: 260px;
-    }
-    .pro1{
-        width: 74vw;
-        height: 112px;
-        position: absolute;
-        top: 280px;
-        left: 2px;
-        margin-left: 2px;
-    }
-    .pro{
-        width: 63px;
-        margin: 0px;
-    }
-    .off{
-        width: 100vw;
-        padding-left: 2px;
-        background-color: rgb(233, 233, 233);
-        position: absolute;
-        top: 400px;
-    }
-    .special{
-        width: 32vw;
-        margin: 0;
-    }
-    table{
-        color: white;
-    }
-
-    .tb1{
-       width: 60vw;
-        margin: 0px;
-        padding: 0;
-      
-        text-align: left;
-        font-size: smaller;
-        background-color: rgb(27, 27, 99);
-        position: absolute;
-        top: 465px;
-    }
-    th{
-        font-size: 8px;
-        color: rgb(125, 124, 173);
-        text-align: left;
-        padding-left: 15px;
-    }
-    td{
-        font-size: 5px;
-        text-align: left;
-        padding-left: 15px;
-    }
-    .tb2{
-        width:30vw;
-        height: 70px;
-        padding: 56.7px;
-        padding-left: 0;
-        padding-right: 10px;
-        padding-top: 0;
-        position: absolute;
-        right: 25px;
-        top: 465px;
-        background-color: rgb(27, 27, 99);
-    }
+ .sales1{
+     position: absolute;
+     left: 75vw;
+     width: 24vw;
+     top: 43vh;
     
-
-
+ }
+ input{
+     position: absolute;
+     left: 2px;
+     top: 50px;
+     width: 99vw;
+ }
+ .A1{
+     margin-left: 5px;
+     width: 75vw;
+     padding: 0;
+     padding-bottom: 4px;
+ }
+ .deals{
+     padding: 0;
+     font-size: 10px;
+     margin: 0px 125px 0px 2px;
+ }
+ .view{
+     width: 45px;
+     height: 16px;
+     font-size: 6px;
+     padding: 0;
+ }
+ .A{
+     padding-bottom:2px;
+     width: 75vw;
+ }
+ .one{
+     position: absolute;
+     left: 0;
+     color:rgb(42, 112, 243)  ;
+     z-index: -1;
+ }
+ img{
+     margin:0px ;
+     width: 35px;
+     
+ }
+ .two{
+     position: absolute;
+     left: 0;
+     color:rgb(42, 112, 243)  ;
+     z-index: -1;
+ }
+ .pro1{
+     padding: 0;
+     margin-left:5px;
+     position: absolute;
+     left: 0;
+     width: 74vw;
+     margin-right: 0;
+     height: 115px;
+ }
+ .pro{
+     margin: 0;
+     width: 17vw;
+ }
+ .off{
+     width: 100vw;
+     padding-left: 5px;
+ }
+ .special{
+     width: 32vw;
+     margin:0px;
+     margin-top: 5px;
+ }
+ .tb2{
+     position: absolute;
+     left: 45vw;
+     font-size: 5px;
+     top: 485.8px;
+     padding-right: 4.5px;
+     padding-bottom: 20px;
+     padding-top:0;
+ }
+ .tb1{
+     position: absolute;
+     left: 0;
+     width: 50vw;
+     padding-bottom: 0;
+     font-size: 5px;
+     padding: 0;
+ }
+ .products{
+     margin-right: 0;
+     padding: 0;
+     width: 70vw;
+     height: 115px;
+ }
+ 
 }
+     
