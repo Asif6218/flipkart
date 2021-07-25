@@ -328,7 +328,7 @@ margin: 0;
      position: absolute;
      left: 75vw;
      width: 24vw;
-     top: 43vh;
+     top: 270px;
     
  }
  input{
@@ -399,10 +399,10 @@ margin: 0;
  }
  .tb2{
      position: absolute;
-     left: 45vw;
+     left: 51vw;
      font-size: 5px;
-     top: 485.8px;
-     padding-right: 4.5px;
+     top: 495.6px;
+     padding-right: 9px;
      padding-bottom: 20px;
      padding-top:0;
  }
